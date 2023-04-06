@@ -1,4 +1,26 @@
-header{
+.cabecalhoprincipal { 
     background: purple;
     color: white;
+}
+.cabeçalho{
+    display: flex;
+    font-size: 60px;
+}
+.logo{
+    width: 250px;
+    position: relative;
+    left: 300px;
+    top: 35px;
+}
+
+.item{
+    color: green;
+    position: relative;
+    left: 500px;
+}
+.alura{
+    width: 200px;
+    position: relative;
+    top: 700px;
+    left: 1000px;
 }
