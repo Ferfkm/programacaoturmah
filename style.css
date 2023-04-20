@@ -1,30 +1,68 @@
+body{
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .cabecalhoprincipal { 
-    background: purple;
+    background: #442FA4;
     color: white;
 }
 .cabeçalho{
     display: flex;
     font-size: 60px;
+    margin-left: 700px;
+    margin-top: 10px;
 }
 .logo{
     width: 250px;
     position: relative;
     left: 300px;
     top: 35px;
+    border-radius: 150px;
 }
 
 .item{
-    color: green;
+    color: rgb(237, 242, 237);
     position: relative;
     left: 500px;
+    bottom: 80px;
+    margin-left: 55px;
 }
-.alura{
-    width: 200px;
-    position: relative;
-    top: 700px;
-    left: 1000px;
-}
-.estudante-div{
-    position: relative;
 
+.conteudoprincipal{
+    background-image: linear-gradient(#442FA4, #7F72BC);
+    color:rgb(240, 245, 245);
+}
+.imagem-alura{
+    width: 250px;
+    display: inline;
+    position: relative;
+    margin-left: 1700px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+.conteudo-grupo{
+    padding-left: 300px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.conteudo-frase{
+    position: absolute;
+    margin-left: 80px;
+    margin-right: 520px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(26, 27, 25);
+}
+.cursistas{
+    background-color: #A898F4;
+}
+.titulocursistas{
+    font-size: 60px;
+    font-family: Tohoma;
+    color: blue;
+    text-align: center;
+}
+.fotocursistas{
+    width: 210px;
 }
